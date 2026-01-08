@@ -79,6 +79,36 @@ nav ul li a:hover {
     width: 300px;
     max-width: 100%;
 }
+/* Footer */
+.footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 60px;
+}
+
+.footer p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Social Icons */
+.social-icons a {
+    color: #ddd;
+    font-size: 22px;
+    margin: 0 12px;
+    display: inline-block;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
+
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -101,5 +131,9 @@ nav ul li a:hover {
 
     .hero-image {
         margin-top: 30px;
+    }
+    .social-icons a {
+        font-size: 20px;
+        margin: 0 8px;
     }
 }
